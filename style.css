@@ -184,7 +184,9 @@ p {
   background-image: url(./images/s3back.png);
   background-size: cover;
   object-fit: cover;
-  height: 100vh
+  height: 100vh;
+ 
+  
 }
 
 .promo img {
@@ -212,7 +214,7 @@ p {
 .promo h1 {
   font-family: var(--font-family-single);
   color: var(--font-color-back);
-}
+ }
 
 .promo p {
   font-family: var(--font-family-single);
@@ -304,11 +306,14 @@ p {
 
 .startt {
   height: 100%;
+
+ 
 }
 
 .startt h5,
 p {
   color: white;
+
 }
 
 .jill img {
@@ -422,6 +427,18 @@ p {
 /* Footer Completed */
 
 
+
+
+/* Modal  */
+
+.modal-content {
+  border-radius: 0;
+}
+
+
+
+
+
 /* Media Query */
 
 @media only screen and (max-width: 1200px) {
@@ -532,6 +549,16 @@ p {
     margin-top: 22px;
   }
 
+  .modal-content {
+    border-radius: 25px;
+    
+  }
+  
+  .modal-content ul li a{
+    color: var(--font-color-back);
+    
+  }
+
 }
 
 
@@ -567,7 +594,20 @@ p {
     font-weight: 1000;
   }
 
+  #btn1 {
+    width: 30%;}
+
+    .product, p {
+      padding-bottom: 0px;
+      
+  }
+
+  #title2 p {
+    color: white;
+
 
 }
 
-/* Product Section End */
+
+
+}
