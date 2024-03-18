@@ -1,1 +1,1 @@
-# japanashushi.github.io
+# japanfood.github.io
